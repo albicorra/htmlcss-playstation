@@ -4,9 +4,30 @@ img{
 
 
 
+/* header */
+header{
+    display: contents;
+}
+
+.sony-container{
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.sony-container img{
+    width: 75px;
+}
+
 
 
 /* nav */
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
 
 .ms_dropdown-menu{
     right: 0;
@@ -36,4 +57,27 @@ nav li{
     margin-left: 20px;
 }
 
+
+/* main */
+
+/* section 1 */
+.ms_jumbo-returnal{
+    background-image: url( img/jumbo-bg.png );
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.ms_banner{
+    min-height: 590px;
+}
+
+.ms_banner button{
+    background-color: #CD3D0F;
+    color: #fff;
+    border: none;
+}
+
+
+/* section 2 */
 
