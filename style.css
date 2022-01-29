@@ -2,6 +2,11 @@ img{
     width: 100%;
 }
 
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 
 /* header */
@@ -80,4 +85,55 @@ nav li{
 
 
 /* section 2 */
+
+.ms_list-thumb-game{
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: 0.1s;
+}
+
+.ms_list-thumb-game.active, .ms_list-thumb-game:hover{
+    outline-offset: 1px;
+    outline: 3px solid #2285D5;
+}
+
+
+/* section 3 */
+.ms_list-thumb-product{
+    font-size: 13px;
+}
+
+.ms_opacity-thumb{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ms_list-thumb-product.active, .ms_list-thumb-product:hover{
+    border-bottom: 2px solid #0D6EFD;
+}
+
+.ms_list-thumb-product.active .ms_opacity-thumb, .ms_list-thumb-product:hover .ms_opacity-thumb{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
