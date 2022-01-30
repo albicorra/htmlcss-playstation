@@ -8,6 +8,15 @@ ul, li{
     padding: 0;
 }
 
+a{
+    color: currentColor;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    color: #fff;
+}
 
 /* header */
 header{
@@ -175,6 +184,33 @@ nav li{
 .ms_social-container{
     width: 560px;
 }
+
+.ms_social-container img{
+    border-radius: 10px;
+}
+
+
+/* footer */
+.ms_footer-information{
+    background-color: #00439C;
+}
+
+.ms_country-img{
+    width: 16px;
+}
+
+.ms_footer-information .col-auto > p{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
 
 
 
