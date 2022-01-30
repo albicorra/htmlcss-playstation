@@ -32,6 +32,7 @@ header{
 .navbar{
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .ms_dropdown-menu{
@@ -102,6 +103,8 @@ nav li{
 /* section 3 */
 .ms_list-thumb-product{
     font-size: 13px;
+    justify-content: space-between;
+    border-bottom: 2px solid transparent;
 }
 
 .ms_opacity-thumb{
@@ -120,6 +123,57 @@ nav li{
 
 .ms_list-thumb-product.active .ms_opacity-thumb, .ms_list-thumb-product:hover .ms_opacity-thumb{
     display: none;
+}
+
+
+/* section 4 */
+.ms_jumbo-it-takes-two{
+    background-image: url( img/it-takes-two-hero-banner-desktop.jpg );
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+
+/* section 5 */
+.ms_store-img{
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+}
+
+.ms_store{
+    background-color: #1F1F1F;
+    color: #fff;
+}
+
+
+/* section 7 */
+.ms_playstation-plus{
+    background-color: #BEBCBB; 
+}
+
+.ms_playstation-plus button{
+    background-color: #D9DADC;
+    border: none;
+    font-weight: 600;
+}
+
+
+/* section 9 */
+.ms_playstation-now{
+    background-color: #161C3B;
+}
+
+.ms_playstation-now button{
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+
+/* section 10 */
+.ms_social-container{
+    width: 560px;
 }
 
 
