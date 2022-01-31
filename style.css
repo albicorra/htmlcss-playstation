@@ -129,12 +129,14 @@ nav li{
     border-radius: 20px;
     overflow: hidden;
     border: 1px solid transparent;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 .ms_list-thumb-game.active, .ms_list-thumb-game:hover{
     outline-offset: 1px;
-    outline: 3px solid #2285D5;
+    outline: 4px solid #2285D5;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.5);
+    margin-top: -10px;
 }
 
 
